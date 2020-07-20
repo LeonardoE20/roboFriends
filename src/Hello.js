@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import './Hello.css'
 
 class Hello extends Component {
   render() {
-    return <h1>Hello World</h1>
+    return (
+      <div className='f1 tc'>
+        <h1>Hello World</h1>
+        <p>Welcome To React</p>
+      </div>
+    )
   }
 }
 
