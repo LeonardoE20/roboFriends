@@ -7,7 +7,11 @@ import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card />
+    <div>
+      <Card />
+      <Card />
+      <Card />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
