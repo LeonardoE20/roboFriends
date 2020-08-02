@@ -9,7 +9,9 @@ import { Fragment } from 'react';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CardList />
+    <Fragment>
+      <CardList robots={robots} />
+    </Fragment>
   </React.StrictMode>,
   document.getElementById('root')
 );
