@@ -6,11 +6,11 @@ import { Fragment } from 'react';
 
 const App = () => {
   return (
-    <Fragment>
+    <div className='tc'>
       <h1>RoboFriends</h1>
       <SearchBox />
       <CardList robots={robots} />
-    </Fragment>
+    </div>
   );
 }
 export default App;
